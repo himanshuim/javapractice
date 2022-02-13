@@ -1,0 +1,34 @@
+	package javafirst;
+	import java.util.*;
+	
+	public class First1 {
+		
+		public static void main(String[] args)
+		{
+			System.out.println("hello  himanshu");
+	
+		
+		Scanner  obj=new Scanner(System.in);
+		System.out.println("enter the first number");
+		int a=obj.nextInt();
+		System.out.println("enter the first number");
+		int b=obj.nextInt();
+		System.out.println("enter the first number");
+		int c=obj.nextInt();
+	    int z=(a+b+c)/2;
+	    System.out.print("the average is"+z);
+	    z=0;
+	    z=a+b+c;
+	    System.out.print("the sum is"+z);
+	    
+	    
+	    
+	    
+	    
+	    
+	       
+		
+		
+		}
+	
+	}
